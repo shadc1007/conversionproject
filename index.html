@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="index.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com"> <!-- FONT USED-->
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;800&display=swap" rel="stylesheet">
+    <title>Document</title>
+</head>
+<body>
+    <div class="box-container"> <!--main box container start -->
+        <div class="box-item-top"> <!-- top box start -->
+         <div class="top-content"> <!-- top content start-->
+            <h1>Metric/Imperial unit conversion</h1>
+            <input type="number" placeholder="0" oninput="converter()" id="input-el">
+            </div> <!-- top content end -->
+         <div class="bottom-content"> <!-- bottom content starts-->
+            <h3>Length (Meter/Feet)</h3>
+            <h4 id="meterfeet-el">0 Meters = 0.000 feet | 0 Feet = 0.000 meters</h4>
+            <h3>Volume (Liters/Gallons)</h3>
+            <h4 id="litergallon-el">0 Liters = 0.000 gallons | 0 Gallons = 0.000 liters</h4>
+            <h3>Mass (Kilograms/Pounds)</h3>
+            <h4 id="kilopound-el">0 Kilos = 0.000 pounds | 0 Pounds = 0.000 kilos</h4>
+            <br>
+            <h6>Shadrack V. Castro</h6>
+         </div> <!-- bottom content end -->
+         </div> <!--- top content end -->
+    
+    </div> <!-- main box container end -->
+<script src="index.js"></script>
+</body>
+</html>
